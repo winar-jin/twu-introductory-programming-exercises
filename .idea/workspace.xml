@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="269176b0-1877-4630-80b3-53e22ebd3f9c" name="Default" comment="[feat] FizzBuzz return Buzz when n can divided by 5">
+    <list default="true" id="269176b0-1877-4630-80b3-53e22ebd3f9c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/twu/introductory/FizzBuzz.java" afterPath="$PROJECT_DIR$/src/com/twu/introductory/FizzBuzz.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/twu/introductory/FizzBuzzTest.java" afterPath="$PROJECT_DIR$/test/com/twu/introductory/FizzBuzzTest.java" />
@@ -20,8 +20,8 @@
       <file leaf-file-name="FizzBuzz.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/twu/introductory/FizzBuzz.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="330">
+              <caret line="22" column="51" lean-forward="false" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -30,18 +30,14 @@
       <file leaf-file-name="FizzBuzzTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com/twu/introductory/FizzBuzzTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="35" column="43" lean-forward="false" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+            <state relative-caret-position="405">
+              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#268#269#0" expanded="true" />
                 <element signature="e#303#304#0" expanded="true" />
                 <element signature="e#366#367#0" expanded="true" />
-                <element signature="e#415#416#0" expanded="true" />
-                <element signature="e#493#494#0" expanded="true" />
-                <element signature="e#545#546#0" expanded="true" />
-                <element signature="e#623#624#0" expanded="true" />
-                <element signature="e#675#676#0" expanded="true" />
+                <element signature="e#423#424#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,8 +69,8 @@
         <option value="$PROJECT_DIR$/src/com/twu/introductory/Triangle.java" />
         <option value="$PROJECT_DIR$/test/com/twu/introductory/DiamondTest.java" />
         <option value="$PROJECT_DIR$/src/com/twu/introductory/Diamond.java" />
-        <option value="$PROJECT_DIR$/test/com/twu/introductory/FizzBuzzTest.java" />
         <option value="$PROJECT_DIR$/src/com/twu/introductory/FizzBuzz.java" />
+        <option value="$PROJECT_DIR$/test/com/twu/introductory/FizzBuzzTest.java" />
       </list>
     </option>
   </component>
@@ -186,32 +182,6 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.FizzBuzzTest">
-    <configuration default="false" name="FizzBuzzTest.should_output_1_when_the_input_is_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.twu.introductory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="introductory" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.twu.introductory" />
-      <option name="MAIN_CLASS_NAME" value="com.twu.introductory.FizzBuzzTest" />
-      <option name="METHOD_NAME" value="should_output_1_when_the_input_is_1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
     <configuration default="false" name="FizzBuzzTest.should_output_Fizz_when_the_input_can_divided_by_3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -304,6 +274,32 @@
       <option name="MAIN_CLASS_NAME" value="com.twu.introductory.FizzBuzzTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="FizzBuzzTest.should_return_right_FuzzBuzz_number_from_1_15" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.twu.introductory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="introductory" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.twu.introductory" />
+      <option name="MAIN_CLASS_NAME" value="com.twu.introductory.FizzBuzzTest" />
+      <option name="METHOD_NAME" value="should_return_right_FuzzBuzz_number_from_1_15" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -697,19 +693,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest.should_output_1_when_the_input_is_1" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest.should_output_Fizz_when_the_input_can_divided_by_3" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest.should_output_Buzz_when_the_input_can_divided_by_5" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest.should_return_FizzBuzz_when_the_input_can_divided_by_3_and_5" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest.should_output_Fizz_when_the_input_can_divided_by_3" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest.should_output_Buzz_when_the_input_can_divided_by_5" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest.should_return_FizzBuzz_when_the_input_can_divided_by_3_and_5" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest.should_return_right_FuzzBuzz_number_from_1_15" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest.should_return_FizzBuzz_when_the_input_can_divided_by_3_and_5" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest.should_output_Buzz_when_the_input_can_divided_by_5" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest.should_output_Fizz_when_the_input_can_divided_by_3" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest.should_output_1_when_the_input_is_1" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest.should_return_right_FuzzBuzz_number_from_1_15" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest.should_return_FizzBuzz_when_the_input_can_divided_by_3_and_5" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest.should_output_Buzz_when_the_input_can_divided_by_5" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest.should_output_Fizz_when_the_input_can_divided_by_3" />
       </list>
     </recent_temporary>
   </component>
@@ -723,7 +719,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1532054326992</updated>
-      <workItem from="1532054329686" duration="6448000" />
+      <workItem from="1532054329686" duration="6875000" />
     </task>
     <task id="LOCAL-00001" summary="[feat] Triangle easy method">
       <created>1532055798411</created>
@@ -802,33 +798,31 @@
       <option name="project" value="LOCAL" />
       <updated>1532061194269</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="[feat] FizzBuzz return FizzBuzz when n can divided by 15">
+      <created>1532061395861</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1532061395861</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
     <history-entry file="FizzBuzzTest - 2018.07.20 at 12h 36m 24s.xml">
       <configuration name="FizzBuzzTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzTest_should_output_1_when_the_input_is_1 - 2018.07.20 at 12h 26m 49s.xml">
-      <configuration name="FizzBuzzTest.should_output_1_when_the_input_is_1" configurationId="JUnit" />
+    <history-entry file="FizzBuzzTest - 2018.07.20 at 12h 38m 48s.xml">
+      <configuration name="FizzBuzzTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzTest_should_output_1_when_the_input_is_1 - 2018.07.20 at 12h 29m 22s.xml">
-      <configuration name="FizzBuzzTest.should_output_1_when_the_input_is_1" configurationId="JUnit" />
+    <history-entry file="FizzBuzzTest - 2018.07.20 at 12h 39m 00s.xml">
+      <configuration name="FizzBuzzTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzTest_should_output_1_when_the_input_is_1 - 2018.07.20 at 12h 29m 30s.xml">
-      <configuration name="FizzBuzzTest.should_output_1_when_the_input_is_1" configurationId="JUnit" />
+    <history-entry file="FizzBuzzTest - 2018.07.20 at 12h 39m 05s.xml">
+      <configuration name="FizzBuzzTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzTest_should_output_Buzz_when_the_input_can_divided_by_5 - 2018.07.20 at 12h 32m 34s.xml">
-      <configuration name="FizzBuzzTest.should_output_Buzz_when_the_input_can_divided_by_5" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FizzBuzzTest_should_output_Buzz_when_the_input_can_divided_by_5 - 2018.07.20 at 12h 32m 59s.xml">
-      <configuration name="FizzBuzzTest.should_output_Buzz_when_the_input_can_divided_by_5" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FizzBuzzTest_should_output_Fizz_when_the_input_can_divided_by_3 - 2018.07.20 at 12h 29m 46s.xml">
-      <configuration name="FizzBuzzTest.should_output_Fizz_when_the_input_can_divided_by_3" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FizzBuzzTest_should_output_Fizz_when_the_input_can_divided_by_3 - 2018.07.20 at 12h 30m 59s.xml">
-      <configuration name="FizzBuzzTest.should_output_Fizz_when_the_input_can_divided_by_3" configurationId="JUnit" />
+    <history-entry file="FizzBuzzTest - 2018.07.20 at 12h 43m 54s.xml">
+      <configuration name="FizzBuzzTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="FizzBuzzTest_should_return_FizzBuzz_when_the_input_can_divided_by_3_and_5 - 2018.07.20 at 12h 35m 41s.xml">
       <configuration name="FizzBuzzTest.should_return_FizzBuzz_when_the_input_can_divided_by_3_and_5" configurationId="JUnit" />
@@ -836,9 +830,18 @@
     <history-entry file="FizzBuzzTest_should_return_FizzBuzz_when_the_input_can_divided_by_3_and_5 - 2018.07.20 at 12h 36m 02s.xml">
       <configuration name="FizzBuzzTest.should_return_FizzBuzz_when_the_input_can_divided_by_3_and_5" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FizzBuzzTest_should_return_right_FuzzBuzz_number_from_1_15 - 2018.07.20 at 12h 43m 01s.xml">
+      <configuration name="FizzBuzzTest.should_return_right_FuzzBuzz_number_from_1_15" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FizzBuzzTest_should_return_right_FuzzBuzz_number_from_1_15 - 2018.07.20 at 12h 43m 25s.xml">
+      <configuration name="FizzBuzzTest.should_return_right_FuzzBuzz_number_from_1_15" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FizzBuzzTest_should_return_right_FuzzBuzz_number_from_1_15 - 2018.07.20 at 12h 43m 44s.xml">
+      <configuration name="FizzBuzzTest.should_return_right_FuzzBuzz_number_from_1_15" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6448000" />
+    <option name="totallyTimeSpent" value="6875000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -893,7 +896,8 @@
     <MESSAGE value="[feat] FizzBuzz simple return 1" />
     <MESSAGE value="[feat] FizzBuzz return Fizz when n can divided by 3" />
     <MESSAGE value="[feat] FizzBuzz return Buzz when n can divided by 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="[feat] FizzBuzz return Buzz when n can divided by 5" />
+    <MESSAGE value="[feat] FizzBuzz return FizzBuzz when n can divided by 15" />
+    <option name="LAST_COMMIT_MESSAGE" value="[feat] FizzBuzz return FizzBuzz when n can divided by 15" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -944,26 +948,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu/introductory/FizzBuzz.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="330">
+          <caret line="22" column="51" lean-forward="false" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/twu/introductory/FizzBuzzTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="35" column="43" lean-forward="false" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+        <state relative-caret-position="405">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#268#269#0" expanded="true" />
             <element signature="e#303#304#0" expanded="true" />
             <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
-            <element signature="e#545#546#0" expanded="true" />
-            <element signature="e#623#624#0" expanded="true" />
-            <element signature="e#675#676#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
           </folding>
         </state>
       </provider>
