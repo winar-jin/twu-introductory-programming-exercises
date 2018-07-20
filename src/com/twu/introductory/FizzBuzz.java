@@ -5,6 +5,9 @@ package com.twu.introductory;
  */
 class FizzBuzz {
   String fizzBuzz(int n) {
+    if (n % 15 == 0) {
+      return "FizzBuzz";
+    }
     if (n % 3 == 0) {
       return "Fizz";
     }

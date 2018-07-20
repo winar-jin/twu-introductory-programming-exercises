@@ -30,4 +30,9 @@ public class FizzBuzzTest {
   public void should_output_Buzz_when_the_input_can_divided_by_5() {
     assertEquals("Buzz", fizzBuzz.fizzBuzz(5));
   }
+
+  @Test
+  public void should_return_FizzBuzz_when_the_input_can_divided_by_3_and_5() {
+    assertEquals("FizzBuzz", fizzBuzz.fizzBuzz(15));
+  }
 }
