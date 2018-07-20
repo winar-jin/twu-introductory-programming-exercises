@@ -19,4 +19,8 @@ public class TriangleTest {
     assertEquals("*", triangle.easy());
   }
 
+  @Test
+  public void should_return_n_asterisks_with_horizontal_method() {
+    assertEquals("********", triangle.horizontal(8));
+  }
 }
