@@ -7,7 +7,7 @@ import java.util.Arrays;
  */
 class Diamond {
 
-  String horizontal(int n) {
+  private String horizontal(int n) {
     StringBuilder result = new StringBuilder();
     for (int i = 0; i < 2 * n + 1; i++) {
       result.append("*");
