@@ -15,6 +15,15 @@ class Triangle {
     return result.toString();
   }
 
+  String vertical(int n) {
+    StringBuilder result = new StringBuilder();
+    for (int i = 0; i < n; i++) {
+      result.append("*");
+      if ((i + 1) != n) result.append("\n");
+    }
+    return result.toString();
+  }
+
   String right(int n) {
     StringBuilder result = new StringBuilder();
     for (int i = 0; i < n; i++) {

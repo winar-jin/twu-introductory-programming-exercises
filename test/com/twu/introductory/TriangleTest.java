@@ -25,6 +25,11 @@ public class TriangleTest {
   }
 
   @Test
+  public void should_return_n_line_asterisks_with_vertical_method() {
+    assertEquals("*\n*\n*", triangle.vertical(3));
+  }
+
+  @Test
   public void should_return_n_line_right_triangle_with_right_method() {
     assertEquals("*\n**\n***", triangle.right(3));
   }
