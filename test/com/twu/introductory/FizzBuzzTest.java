@@ -26,4 +26,8 @@ public class FizzBuzzTest {
     assertEquals("Fizz", fizzBuzz.fizzBuzz(3));
   }
 
+  @Test
+  public void should_output_Buzz_when_the_input_can_divided_by_5() {
+    assertEquals("Buzz", fizzBuzz.fizzBuzz(5));
+  }
 }
