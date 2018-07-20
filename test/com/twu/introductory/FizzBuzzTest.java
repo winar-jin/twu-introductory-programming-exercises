@@ -18,7 +18,12 @@ public class FizzBuzzTest {
 
   @Test
   public void should_output_1_when_the_input_is_1() {
-    assertEquals("1", fizzBuzz.fizzBuzz());
+    assertEquals("1", fizzBuzz.fizzBuzz(1));
+  }
+
+  @Test
+  public void should_output_Fizz_when_the_input_can_divided_by_3() {
+    assertEquals("Fizz", fizzBuzz.fizzBuzz(3));
   }
 
 }
