@@ -7,6 +7,14 @@ import java.util.ArrayList;
  */
 class PrimeFactors {
   ArrayList<Integer> generate(int n) {
-    return new ArrayList<Integer>();
+    ArrayList<Integer> result = new ArrayList<Integer>();
+    int tracker = n;
+    for (int i = 2; i <= tracker; i++) {
+      if (tracker % i == 0) {
+        result.add(i);
+        tracker /= i;
+      }
+    }
+    return result;
   }
 }

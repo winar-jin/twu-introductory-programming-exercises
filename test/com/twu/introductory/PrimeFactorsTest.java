@@ -23,4 +23,13 @@ public class PrimeFactorsTest {
     ArrayList<Integer> expect = new ArrayList<Integer>();
     assertEquals(expect, primeFactors.generate(1));
   }
+
+  @Test
+  public void should_return_prime_factors_array_with_increasing_numerical_order() {
+    ArrayList<Integer> expect = new ArrayList<Integer>();
+    expect.add(2);
+    expect.add(3);
+    expect.add(5);
+    assertEquals(expect, primeFactors.generate(30));
+  }
 }
