@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="269176b0-1877-4630-80b3-53e22ebd3f9c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/twu/introductory/Diamond.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/com/twu/introductory/DiamondTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/introductory/com/twu/introductory/Triangle.class" afterPath="$PROJECT_DIR$/out/production/introductory/com/twu/introductory/Triangle.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/twu/introductory/Diamond.java" afterPath="$PROJECT_DIR$/src/com/twu/introductory/Diamond.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/twu/introductory/DiamondTest.java" afterPath="$PROJECT_DIR$/test/com/twu/introductory/DiamondTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,31 +17,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Diamond.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Diamond.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/twu/introductory/Diamond.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="254">
+              <caret line="41" column="20" lean-forward="false" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Triangle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/twu/introductory/Triangle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="29" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="14" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DiamondTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DiamondTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/com/twu/introductory/DiamondTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="50" lean-forward="false" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+            <state relative-caret-position="450">
+              <caret line="30" column="63" lean-forward="false" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#265#266#0" expanded="true" />
@@ -188,59 +177,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DiamondTest.should_return_a_isosceles_triangle_with_isosceles_method">
-    <configuration default="false" name="TriangleTest.should_return_n_line_right_triangle_with_right_method" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.twu.introductory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="introductory" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.twu.introductory" />
-      <option name="MAIN_CLASS_NAME" value="com.twu.introductory.TriangleTest" />
-      <option name="METHOD_NAME" value="should_return_n_line_right_triangle_with_right_method" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="TriangleTest.should_return_n_line_asterisks_with_vertical_method" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.twu.introductory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="introductory" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.twu.introductory" />
-      <option name="MAIN_CLASS_NAME" value="com.twu.introductory.TriangleTest" />
-      <option name="METHOD_NAME" value="should_return_n_line_asterisks_with_vertical_method" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.DiamondTest">
     <configuration default="false" name="TriangleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -307,6 +244,58 @@
       <option name="MAIN_CLASS_NAME" value="com.twu.introductory.DiamondTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="DiamondTest.should_return_a_centered_diamond_with_centered_method" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.twu.introductory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="introductory" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.twu.introductory" />
+      <option name="MAIN_CLASS_NAME" value="com.twu.introductory.DiamondTest" />
+      <option name="METHOD_NAME" value="should_return_a_centered_diamond_with_centered_method" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="DiamondTest.should_return_diamond_with_name_with_nameDiamond_method" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.twu.introductory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="introductory" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.twu.introductory" />
+      <option name="MAIN_CLASS_NAME" value="com.twu.introductory.DiamondTest" />
+      <option name="METHOD_NAME" value="should_return_diamond_with_name_with_nameDiamond_method" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -700,19 +689,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.TriangleTest.should_return_n_line_right_triangle_with_right_method" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TriangleTest.should_return_n_line_asterisks_with_vertical_method" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TriangleTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.DiamondTest.should_return_a_isosceles_triangle_with_isosceles_method" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.DiamondTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.TriangleTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.DiamondTest.should_return_a_isosceles_triangle_with_isosceles_method" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.DiamondTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.DiamondTest.should_return_a_centered_diamond_with_centered_method" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.DiamondTest.should_return_diamond_with_name_with_nameDiamond_method" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.DiamondTest.should_return_a_isosceles_triangle_with_isosceles_method" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.DiamondTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TriangleTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TriangleTest.should_return_n_line_asterisks_with_vertical_method" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TriangleTest.should_return_n_line_right_triangle_with_right_method" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.DiamondTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.DiamondTest.should_return_diamond_with_name_with_nameDiamond_method" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.DiamondTest.should_return_a_centered_diamond_with_centered_method" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.DiamondTest.should_return_a_isosceles_triangle_with_isosceles_method" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TriangleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -726,7 +715,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1532054326992</updated>
-      <workItem from="1532054329686" duration="2775000" />
+      <workItem from="1532054329686" duration="5567000" />
     </task>
     <task id="LOCAL-00001" summary="[feat] Triangle easy method">
       <created>1532055798411</created>
@@ -756,43 +745,57 @@
       <option name="project" value="LOCAL" />
       <updated>1532056513948</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="[feat] Diamond isosceles method">
+      <created>1532057492488</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1532057492488</updated>
+    </task>
+    <task id="LOCAL-00006" summary="[feat] Diamond centered method">
+      <created>1532060359982</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1532060359982</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DiamondTest - 2018.07.20 at 11h 30m 00s.xml">
+    <history-entry file="DiamondTest - 2018.07.20 at 12h 17m 05s.xml">
       <configuration name="DiamondTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DiamondTest_should_return_a_isosceles_triangle_with_isosceles_method - 2018.07.20 at 11h 27m 17s.xml">
-      <configuration name="DiamondTest.should_return_a_isosceles_triangle_with_isosceles_method" configurationId="JUnit" />
+    <history-entry file="DiamondTest - 2018.07.20 at 12h 21m 36s.xml">
+      <configuration name="DiamondTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DiamondTest_should_return_a_isosceles_triangle_with_isosceles_method - 2018.07.20 at 11h 30m 58s.xml">
-      <configuration name="DiamondTest.should_return_a_isosceles_triangle_with_isosceles_method" configurationId="JUnit" />
+    <history-entry file="DiamondTest - 2018.07.20 at 12h 21m 39s.xml">
+      <configuration name="DiamondTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TriangleTest - 2018.07.20 at 11h 14m 57s.xml">
-      <configuration name="TriangleTest" configurationId="JUnit" />
+    <history-entry file="DiamondTest_should_return_a_centered_diamond_with_centered_method - 2018.07.20 at 11h 51m 21s.xml">
+      <configuration name="DiamondTest.should_return_a_centered_diamond_with_centered_method" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TriangleTest_should_return_n_asterisks_with_horizontal_method - 2018.07.20 at 11h 05m 33s.xml">
-      <configuration name="TriangleTest.should_return_n_asterisks_with_horizontal_method" configurationId="JUnit" />
+    <history-entry file="DiamondTest_should_return_a_centered_diamond_with_centered_method - 2018.07.20 at 11h 54m 36s.xml">
+      <configuration name="DiamondTest.should_return_a_centered_diamond_with_centered_method" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TriangleTest_should_return_n_line_asterisks_with_vertical_method - 2018.07.20 at 11h 14m 31s.xml">
-      <configuration name="TriangleTest.should_return_n_line_asterisks_with_vertical_method" configurationId="JUnit" />
+    <history-entry file="DiamondTest_should_return_a_centered_diamond_with_centered_method - 2018.07.20 at 11h 55m 04s.xml">
+      <configuration name="DiamondTest.should_return_a_centered_diamond_with_centered_method" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TriangleTest_should_return_n_line_asterisks_with_vertical_method - 2018.07.20 at 11h 14m 34s.xml">
-      <configuration name="TriangleTest.should_return_n_line_asterisks_with_vertical_method" configurationId="JUnit" />
+    <history-entry file="DiamondTest_should_return_a_centered_diamond_with_centered_method - 2018.07.20 at 12h 13m 36s.xml">
+      <configuration name="DiamondTest.should_return_a_centered_diamond_with_centered_method" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TriangleTest_should_return_n_line_right_triangle_with_right_method - 2018.07.20 at 11h 09m 32s.xml">
-      <configuration name="TriangleTest.should_return_n_line_right_triangle_with_right_method" configurationId="JUnit" />
+    <history-entry file="DiamondTest_should_return_a_centered_diamond_with_centered_method - 2018.07.20 at 12h 14m 23s.xml">
+      <configuration name="DiamondTest.should_return_a_centered_diamond_with_centered_method" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TriangleTest_should_return_n_line_right_triangle_with_right_method - 2018.07.20 at 11h 11m 28s.xml">
-      <configuration name="TriangleTest.should_return_n_line_right_triangle_with_right_method" configurationId="JUnit" />
+    <history-entry file="DiamondTest_should_return_a_centered_diamond_with_centered_method - 2018.07.20 at 12h 16m 58s.xml">
+      <configuration name="DiamondTest.should_return_a_centered_diamond_with_centered_method" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TriangleTest_should_return_n_line_right_triangle_with_right_method - 2018.07.20 at 11h 11m 58s.xml">
-      <configuration name="TriangleTest.should_return_n_line_right_triangle_with_right_method" configurationId="JUnit" />
+    <history-entry file="DiamondTest_should_return_diamond_with_name_with_nameDiamond_method - 2018.07.20 at 12h 21m 33s.xml">
+      <configuration name="DiamondTest.should_return_diamond_with_name_with_nameDiamond_method" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2775000" />
+    <option name="totallyTimeSpent" value="5567000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -840,7 +843,9 @@
     <MESSAGE value="[feat] Triangle horizontal method" />
     <MESSAGE value="[feat] Triangle right method" />
     <MESSAGE value="[feat] Triangle vertical method" />
-    <option name="LAST_COMMIT_MESSAGE" value="[feat] Triangle vertical method" />
+    <MESSAGE value="[feat] Diamond isosceles method" />
+    <MESSAGE value="[feat] Diamond centered method" />
+    <option name="LAST_COMMIT_MESSAGE" value="[feat] Diamond centered method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -861,14 +866,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twu/introductory/Diamond.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu/introductory/Triangle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -879,13 +876,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/twu/introductory/DiamondTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="50" lean-forward="false" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+        <state relative-caret-position="450">
+          <caret line="30" column="63" lean-forward="false" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#265#266#0" expanded="true" />
             <element signature="e#298#299#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twu/introductory/Diamond.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="41" column="20" lean-forward="false" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>

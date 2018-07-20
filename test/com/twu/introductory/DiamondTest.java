@@ -26,4 +26,8 @@ public class DiamondTest {
     assertEquals("  *\n ***\n*****\n ***\n  *", diamond.centered(3));
   }
 
+  @Test
+  public void should_return_diamond_with_name_with_nameDiamond_method() {
+    assertEquals("  *\n ***\nBill\n ***\n  *", diamond.nameDiamond(3, "Bill"));
+  }
 }
